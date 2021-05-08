@@ -10,7 +10,7 @@ import java.util.Objects;
 *
 * 处理办法：使用Objects.equals(a,b) 该方法已经做好空指针的处理，不会报错(注意是Objects，而不是Object)
 * */
-public class equals {
+public class equalsDemo {
     public static void main(String[] args) {
         String s = null;
         int[] list = new int[4];
