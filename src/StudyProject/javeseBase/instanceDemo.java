@@ -1,6 +1,6 @@
 package StudyProject.javeseBase;
 /*
-* instance除了判断是否是它字类之外，还可以判断是否为某类
+* instance除了判断是否是它子类之外，还可以判断是否为某类
 * */
 public class instanceDemo {
     public static void main(String[] args) {
