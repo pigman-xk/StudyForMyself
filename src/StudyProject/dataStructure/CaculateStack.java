@@ -27,7 +27,6 @@ public class CaculateStack {
                         break;
                     case "/":
                         result = finalnum2/finalnum1;
-                        break;
                 }
                 digitalStack.push(result);
                 break;
@@ -56,8 +55,6 @@ public class CaculateStack {
                                 break;
                             case "/":
                                 result = num2/num1;
-                                break;
-
                         }//计算代码
                         digitalStack.push(result);
                         elmentStack.push(elemnt);
@@ -92,7 +89,6 @@ public class CaculateStack {
                     break;
                 case "/":
                     result = num2/num1;
-                    break;
             }
             digitalStack.push(result);
         }
