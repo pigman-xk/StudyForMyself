@@ -47,7 +47,7 @@ public class CaculateStack {
         }
         System.out.println(digitalStack.pop());
     }
-    public static float elementCaculate(float num1,float num2,String element){
+    public static float elementCalculate(float num1,float num2,String element){
         float result=0;
         switch (element){
             case "+":
