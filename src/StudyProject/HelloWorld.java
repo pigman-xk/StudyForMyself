@@ -8,6 +8,10 @@ public class HelloWorld{
         Map<Integer,Integer> hashable = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Hellow World!");
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
+
+//        list.remove();
     }
 }
 
