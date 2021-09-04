@@ -23,7 +23,7 @@ public class CaculateStack {
                     if((elmentStack.peek().equals("+")||elmentStack.peek().equals("-"))&&(elemnt.equals("*")||elemnt.equals("/"))){
                         elmentStack.push(elemnt);
                     }else{//只有出现比符号栈顶或相等或低优先度的符号才进行进入，两两计算，直到符号栈无在添加符号前，栈中没有比新添加符号优先级更高的符号。
-                        result=elementCaculate(digitalStack.pop(),digitalStack.pop(),elmentStack.pop());
+                        result=elementCalculate(digitalStack.pop(),digitalStack.pop(),elmentStack.pop());
                         digitalStack.push(result);
                         elmentStack.push(elemnt);
                     }
@@ -42,12 +42,12 @@ public class CaculateStack {
             index++;
         }
         while(!elmentStack.isEmpty()){
-            result=elementCaculate(digitalStack.pop(),digitalStack.pop(),elmentStack.pop());
+            result=elementCalculate(digitalStack.pop(),digitalStack.pop(),elmentStack.pop());
             digitalStack.push(result);
         }
         System.out.println(digitalStack.pop());
     }
-    public static float elementCaculate(float num1,float num2,String element){
+    public static float elementCalculate(float num1,float num2,String element){
         float result=0;
         switch (element){
             case "+":
